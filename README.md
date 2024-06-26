@@ -76,22 +76,22 @@
   - [Suno Tips](https://www.suno.wiki/faq/getting-started/custom-mode-how-do-i-write-a-style-prompt/)
   - GPT Prompt
     - [Song Description - A brief description of the song's theme and mood]
-    - "<Description>"
+    - "< Description >"
     - [Style Tags - Keywords that describe the music and feel of the song]
     - <Tag 1>, <Tag 2>, <Tag 3>, ...
     - [Intro - Musical and lyrical setup of the song - <Intro music and vocals description>]
-    - <Lyrics>
+    - < Lyrics >
     - [Verse 1 - Development of the song's story and themes - <Verse 1 music and vocals description>]
-    - <Lyrics>
+    - < Lyrics >
     - [Chorus - The catchy and repetitive segment that outlines the song's main themes - <Chorus music and vocals description>]
-    - <Lyrics>
+    - < Lyrics >
     - [Instrumental Break - A non-vocal segment that highlights the instrumental prowess - <Instrumental description>]
     - [Verse 2 - Further development of the story/theme - <Verse 2 music and vocals description>]
-    - <Lyrics>
+    - < Lyrics >
     - [Chorus - Repetition of the chorus to reinforce the song's themes - <Chorus music and vocals description>]
-    - <Lyrics>
+    - < Lyrics >
     - [Outro - Concluding the song - <Outro music and vocals description>]
-    - <Lyrics>
+    - < Lyrics >
   - Music Model Prompts
     - a children's birthday sing-along about Alice visiting the zoo
     - Torchy-lounge song from the POV of a piano player working at a speak-easy who wants to go home because "It's Closing Time"
