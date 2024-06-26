@@ -1,2 +1,167 @@
-# generating-music-ai-engineer-summer-2024
-Generating Music: Unlocks creative music ideas using AI tools for creators of all skill levels
+# AI Music Generation: From Prompt to Production
+### Goal: For the workshop to be interactive, for it to be fun, and for you to walk away with something tangible.
+- Scaling sounds: is AI Music commercially viable?
+  - How do we define AI Music?
+    - Compartments
+      - Style Transfer: Audio Filter, Voice conversion
+        - [AI Weeknd & AI Drake - Heart on my Sleeve](https://www.youtube.com/watch?v=qPjgkKZ0P2M&ab_channel=AICovers)
+        - [Randy Travis - Where That Came From](https://www.youtube.com/watch?v=rh8-g8seeig&ab_channel=RandyTravis)
+        - [Kanye West AI Vocal Process](https://www.youtube.com/watch?v=2sMpIXQcSCA&ab_channel=RobertoNickson)
+      - text to music
+        - meme songs
+          - [BBL Drizzy](https://music.youtube.com/watch?v=L8Za5OpX8bM) by King Willonius (1.5M)
+          - [Started To Sing](https://x.com/elevenlabsio/status/1788628171044053386) by ElevenLabs
+        - ai samples
+          - sound fx
+          - one shots
+          - loops
+            - [piano](https://www.looperman.com/loops/detail/359772/daisy-free-89bpm-acoustic-piano-loop)
+            - [drums](https://www.looperman.com/loops/detail/343981/dr-drum-free-120bpm-rock-drum-loop)
+      - audio to music
+        - [Beatbox to real drums using Stable Audio 2.0](https://x.com/dadabots/status/1775522800582762556)
+    - Misnomer
+      - is it really AI Music if AI is a tool the human is using to create?
+      - maybe AI Assisted Music is more accurate
+        - akin to Photographers reaction to Photoshop
+        - or musicians and drum machines
+  - Using music commercially
+    - Terms of Service
+      - Udio
+        - [FAQs](https://support.udio.com/hc/en-us/articles/29240819901459-Questions-About-Generated-Content)
+        - TOS points
+          - Very broad license to your inputs and outputs
+          - Peculiar attribution (recently walked back)
+          - Only 30 days to opt out of the arbitration clause
+      - Suno
+        - [FAQs](https://suno-ai.notion.site/FAQs-b72601b96de44e5cacd2cd6baa985448)
+        - TOS points
+          - Very broad license to your inputs and outputs
+          - Allows for Midjourney style display of outputs
+          - You can only use the song commercially if you are a paid subscriber
+    - Defending your IP
+      - Works created solely by AI are not eligible for copyright protection
+      - Human authorship is a fundamental requirement for copyright
+        - If the "traditional elements of authorship" (like melody, harmony, rhythm in music) are determined by AI without human creative direction, the work is not copyrightable.
+        - Simply providing a prompt to an AI system is not enough to establish human authorship.
+        - The human must have creative control over the output, not just influence over the general topic or style.
+      - What qualifies as sufficient human input?
+        - A human creatively selecting and arranging AI-generated musical segments could be eligible for copyright protection.
+        - A human significantly modifying AI-generated music to add original expression could make the modified work copyrightable.
+      - Best case scenario: You go viral. Anyone going viral using your idea gives you credit.
+    - Sync license for content creation
+      - Services
+        - Artlist
+        - StoryBlocks
+        - Track Club
+      - Related: [Trailer Music](https://www.chosic.com/free-music/trailer/)
+    - Distributing music as an artist
+      - Services
+        - TuneCore
+        - United Masters
+        - CD Baby
+  - Perspective
+    - I think the current use case of Udio and Suno as meme song generators is a lot of fun but
+      - Producers want more control. Will create at a greater pace given more tools.
+      - Side note: [compulsory mechanical license for music covers](https://www.romanolaw.com/youre-covered-when-to-obtain-a-compulsory-mechanical-license/)
+    - This will make music production more accessible. Will be seen as tools just like a DAW or a plugin. Many integrations to look forward to.
+    - The human connection in music triumphs.
+    - The US Copyright Office's stance right now is AI gen cannot be copyrighted. This has not been held up in the Supreme Court yet. We'll see how it plays out in the future.
+  - Where we are headed
+    - an AI assisted DAW
+    - text to music as Figma
+      - as Canva
+      - as Photoshop
+- Prompting
+  - [Udio Tips](https://docs.google.com/document/d/1aQW2OBBnyM-MllWzmDzxdP6g9t6HJJxVNHyJDW8L8AY/edit)
+  - [Suno Tips](https://www.suno.wiki/faq/getting-started/custom-mode-how-do-i-write-a-style-prompt/)
+  - GPT Prompt
+    - [Song Description - A brief description of the song's theme and mood]
+    - "<Description>"
+    - [Style Tags - Keywords that describe the music and feel of the song]
+    - <Tag 1>, <Tag 2>, <Tag 3>, ...
+    - [Intro - Musical and lyrical setup of the song - <Intro music and vocals description>]
+    - <Lyrics>
+    - [Verse 1 - Development of the song's story and themes - <Verse 1 music and vocals description>]
+    - <Lyrics>
+    - [Chorus - The catchy and repetitive segment that outlines the song's main themes - <Chorus music and vocals description>]
+    - <Lyrics>
+    - [Instrumental Break - A non-vocal segment that highlights the instrumental prowess - <Instrumental description>]
+    - [Verse 2 - Further development of the story/theme - <Verse 2 music and vocals description>]
+    - <Lyrics>
+    - [Chorus - Repetition of the chorus to reinforce the song's themes - <Chorus music and vocals description>]
+    - <Lyrics>
+    - [Outro - Concluding the song - <Outro music and vocals description>]
+    - <Lyrics>
+  - Music Model Prompts
+    - a children's birthday sing-along about Alice visiting the zoo
+    - Torchy-lounge song from the POV of a piano player working at a speak-easy who wants to go home because "It's Closing Time"
+    - Sultry RnB
+    - Upbeat Country, Female vocal
+    - Mississipi Blues, sparse harmonica, acoustic guitar, stomp
+    - bittersweet Hindustani Electro-pop, melodic sarad, ornamental singing
+  - A prompt master at work
+    - [https://www.udio.com/songs/5Rt22swvR7hpLWfsgJtU7i](https://www.udio.com/songs/5Rt22swvR7hpLWfsgJtU7i)
+    - [https://www.udio.com/songs/mqogi2xJvNywqaT46soSwU](https://www.udio.com/songs/mqogi2xJvNywqaT46soSwU)
+    - "Elgareth" in the Udio discord
+- List of research sources
+  - Podcasts
+    - [Making Transformers Sing on Latent Space](https://www.latent.space/p/suno)
+    - [Can AI Make Music That's Worth Listening To](https://podcasts.apple.com/ca/podcast/ai-generated-music-can-ai-make-music-thats-worth-listening/id1498674401?i=1000476109123)
+    - [How A.I. Has Changed Music, and What’s Coming Next](https://overcast.fm/+m-9AfKb1g)
+    - [Why AI Can Never Truly Replace All Musicians feat. Rick Beato](https://www.youtube.com/watch?v=lGNqPFUIwLk&ab_channel=ThroughTheWebPodcast)
+    - [Is AI Music for the Lazy and Untalented on The AI Music Podcast](https://www.listennotes.com/podcasts/the-ai-music-podcast/is-ai-music-only-for-lazy-7naJCswY4MK/)
+  - Videos
+    - [Music Attorney discusses Udio TOS](https://www.youtube.com/watch?v=gkKdxnoPI58&ab_channel=TopMusicAttorney)
+    - [AI's Threat To Music](https://www.youtube.com/watch?v=ibMd_Jx9daw&ab_channel=RickBeato)
+  - Articles
+    - [Harvard Law on Heart on my Sleeve](https://hls.harvard.edu/today/ai-created-a-song-mimicking-the-work-of-drake-and-the-weeknd-what-does-that-mean-for-copyright-law/) (AI Weeknd & AI Drake)
+    - [ELVIS Act becomes law in TN](https://www.riaa.com/elvis-act-becomes-law-as-tennessee-leads-the-nation/)
+    - [RIAA vs Suno, Udio](https://www.riaa.com/record-companies-bring-landmark-cases-for-responsible-ai-againstsuno-and-udio-in-boston-and-new-york-federal-courts-respectively/)
+  - Govt Policy
+    - [State of AI and Copyright Law in 2023](https://copyrightalliance.org/ai-copyright-federal-government-activities/)
+    - [USCO Letter on AI and Copyright](https://www.copyright.gov/laws/hearings/USCO-Letter-on-AI-and-Copyright-Initiative-Update.pdf)
+    - [Copyright Office Request for Comments](https://www.federalregister.gov/documents/2023/08/30/2023-18624/artificial-intelligence-and-copyright)
+    - [Copyright Registration Guidance for AI Works](https://www.federalregister.gov/documents/2023/03/16/2023-05321/copyright-registration-guidance-works-containing-material-generated-by-artificial-intelligence)
+  - Court Cases
+    - [Thaler v. Perlmutter](https://www.authorsalliance.org/2023/08/24/copyright-protection-in-ai-generated-works-update-decision-in-thaler-v-perlmutter/)
+    - [Anderson v. Stability AI](https://www.lexology.com/library/detail.aspx?g=fb25f1cc-6879-489f-bf4c-c46f80134eac)
+    - [Getty v. Stability AI](https://www.reedsmith.com/en/perspectives/2024/02/getty-v-stability-ai-case-goes-to-trial-in-the-uk-what-we-learned)
+    - [RIAA v. Suno](https://www.riaa.com/wp-content/uploads/2024/06/Suno-complaint-file-stamped20.pdf)
+    - [RIAA v. Udio](https://www.riaa.com/wp-content/uploads/2024/06/Udio-Complaint-6.24.241.pdf)
+  - Community Discussions
+    - [Potential Suno Workflow](https://x.com/albfresco/status/1776434926906179930)
+    - [Generate samples over songs](https://x.com/pom_I_moq/status/1778148075715821798)
+    - [Argument against more control for casuals](https://x.com/pretendsmarts/status/1778310951852179536)
+  - AI Music Papers and Models
+    - AudioLM
+      - [Paper](https://arxiv.org/abs/2209.03143)
+      - [Blog](https://research.google/blog/audiolm-a-language-modeling-approach-to-audio-generation/)
+      - [Examples](https://google-research.github.io/seanet/audiolm/examples/)
+      - [IEEE](https://research.google/blog/audiolm-a-language-modeling-approach-to-audio-generation/)
+      - [AudioLM Implementation in PyTorch](https://github.com/lucidrains/audiolm-pytorch)
+    - MusicLM
+      - [Paper](https://arxiv.org/abs/2301.11325)
+      - [Examples](https://google-research.github.io/seanet/musiclm/examples/)
+      - [MusicLM Implementation in PyTorch](https://github.com/lucidrains/musiclm-pytorch)
+    - SoundStream
+      - [Paper](https://arxiv.org/abs/2107.03312)
+      - [Blog](https://research.google/blog/soundstream-an-end-to-end-neural-audio-codec/)
+      - Follow up: [SoundStorm](https://research.google/blog/soundstorm-efficient-parallel-audio-generation/)
+    - AudioCraft
+      - [Code](https://github.com/facebookresearch/audiocraft/tree/main)
+      - [AudioGen Paper](https://felixkreuk.github.io/audiogen/)
+        > Diffusion
+      - [MusicGen Paper](https://ai.honu.io/papers/musicgen/)
+        > Language Model
+    - Machine Learning and Audio
+      - [https://wandb.ai/wandb_gen/audio/reports/A-Technical-Guide-to-Diffusion-Models-for-Audio-Generation--VmlldzoyNjc5ODIx](https://wandb.ai/wandb_gen/audio/reports/A-Technical-Guide-to-Diffusion-Models-for-Audio-Generation--VmlldzoyNjc5ODIx)
+      - [https://www.reddit.com/r/MachineLearning/comments/j9d0tj/d_good_reference_for_audio_processing_and_deep/](https://www.reddit.com/r/MachineLearning/comments/j9d0tj/d_good_reference_for_audio_processing_and_deep/)
+      - [https://www.reddit.com/r/audioengineering/comments/18xn905/opinions_on_machine_learning_within_audio_plugin/](https://www.reddit.com/r/audioengineering/comments/18xn905/opinions_on_machine_learning_within_audio_plugin/)
+      - [https://www.reddit.com/r/MachineLearning/comments/razoa5/d_why_is_audio_so_far_behind_other_ml_application/](https://www.reddit.com/r/MachineLearning/comments/razoa5/d_why_is_audio_so_far_behind_other_ml_application/)
+      - [https://www.reddit.com/r/learnmachinelearning/comments/1c2sbf4/how_do_ai_music_generation_tools_work/](https://www.reddit.com/r/learnmachinelearning/comments/1c2sbf4/how_do_ai_music_generation_tools_work/)
+    - Audio Classification
+      - [https://ieeexplore.ieee.org/document/10258355](https://ieeexplore.ieee.org/document/10258355)
+    - ASR Papers
+      - [https://github.com/jonnor/machinehearing](https://github.com/jonnor/machinehearing)
+    - List of machine learning audio papers
+      - [https://github.com/GuitarML/mldsp-papers](https://github.com/GuitarML/mldsp-papers)
