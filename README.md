@@ -7,24 +7,26 @@
         - [AI Weeknd & AI Drake - Heart on my Sleeve](https://www.youtube.com/watch?v=qPjgkKZ0P2M&ab_channel=AICovers)
         - [Randy Travis - Where That Came From](https://www.youtube.com/watch?v=rh8-g8seeig&ab_channel=RandyTravis)
         - [Kanye West AI Vocal Process](https://www.youtube.com/watch?v=2sMpIXQcSCA&ab_channel=RobertoNickson)
-      - text to music
-        - meme songs
+      - Text to Music
+        - Meme Songs
           - [BBL Drizzy](https://music.youtube.com/watch?v=L8Za5OpX8bM) by King Willonius (1.5M)
           - [Started To Sing](https://x.com/elevenlabsio/status/1788628171044053386) by ElevenLabs
-        - ai samples
-          - sound fx
-          - one shots
-          - loops
+        - AI Samples
+          - Sound FX
+          - One Shots
+          - Loops
             - [piano](https://www.looperman.com/loops/detail/359772/daisy-free-89bpm-acoustic-piano-loop)
             - [drums](https://www.looperman.com/loops/detail/343981/dr-drum-free-120bpm-rock-drum-loop)
-      - audio to music
+      - Audio to Music
         - [Beatbox to real drums using Stable Audio 2.0](https://x.com/dadabots/status/1775522800582762556)
+        - [Cute dog LoFi Remix using Suno](https://x.com/suno_ai_/status/1801652200562716898)
+        - [Finger drumming to punk rock guitar using Udio](https://twitter.com/MatanCohenGrumi/status/1799007643119600017)
     - Misnomer
       - is it really AI Music if AI is a tool the human is using to create?
       - maybe AI Assisted Music is more accurate
         - akin to Photographers reaction to Photoshop
         - or musicians and drum machines
-  - Using music commercially
+  - Using the music commercially
     - Terms of Service
       - Udio
         - [FAQs](https://support.udio.com/hc/en-us/articles/29240819901459-Questions-About-Generated-Content)
