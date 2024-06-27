@@ -167,3 +167,6 @@
       - [https://github.com/jonnor/machinehearing](https://github.com/jonnor/machinehearing)
     - List of machine learning audio papers
       - [https://github.com/GuitarML/mldsp-papers](https://github.com/GuitarML/mldsp-papers)
+
+  ### AIE Summit Talk 2023
+  [Visualizing Datasets](https://github.com/YoungPhlo/visualizing-datasets-ai-engineer-fall-2023)
