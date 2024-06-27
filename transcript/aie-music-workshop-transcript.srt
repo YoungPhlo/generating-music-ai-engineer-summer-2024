@@ -1,0 +1,2547 @@
+1
+00:00:01,611 --> 00:00:03,933
+I'm excited to be here.
+
+2
+00:00:03,953 --> 00:00:11,602
+I really have one main goal in mind, and that's for this talk to be, or this workshop to be interactive.
+
+3
+00:00:12,122 --> 00:00:15,426
+I want it to be fun, and I want you guys to walk away with something tangible.
+
+4
+00:00:17,128 --> 00:00:20,111
+So I, we can actually switch to the slides.
+
+5
+00:00:23,706 --> 00:00:25,007
+So it should be live now.
+
+6
+00:00:25,307 --> 00:00:33,431
+If you guys want to go ahead and go to this link that I have up on the screen or use your phone to go to the QR code, I have some notes for you guys with that URL.
+
+7
+00:00:34,971 --> 00:00:36,952
+But those are my statement goals for this workshop.
+
+8
+00:00:37,872 --> 00:00:44,615
+I want to really probably start by asking you guys some questions so I can get some interaction flowing.
+
+9
+00:00:44,635 --> 00:00:45,836
+But I'm glad you guys came.
+
+10
+00:00:45,876 --> 00:00:46,997
+Thank you for coming.
+
+11
+00:00:47,017 --> 00:00:48,797
+I really appreciate it.
+
+12
+00:00:50,158 --> 00:00:52,239
+The music stuff is something I have been
+
+13
+00:00:53,123 --> 00:00:55,924
+into for a long time, like lifelong musician, artist.
+
+14
+00:00:56,605 --> 00:01:00,187
+But the AI music stuff is something I just started paying attention to.
+
+15
+00:01:01,527 --> 00:01:05,369
+With regards to the tools I'm going to show you today, maybe about a month or so ago.
+
+16
+00:01:05,830 --> 00:01:17,296
+So basically what this workshop is going to be about is I'm going to start with the insights that I've gained by like doing all the research over the last 30 days, and then we'll get straight into the tools so you guys can, again, walk away with something tangible.
+
+17
+00:01:17,316 --> 00:01:19,717
+Let's start with...
+
+18
+00:01:21,431 --> 00:01:25,073
+Okay, by, I know it's early, and I'm still vlogging myself.
+
+19
+00:01:25,093 --> 00:01:34,579
+So, you know, you don't have to necessarily go crazy here, but by show of hands, how many of you have ever used a music generation model, period?
+
+20
+00:01:36,180 --> 00:01:39,261
+Okay, nice, about half you guys.
+
+21
+00:01:39,281 --> 00:01:40,102
+That's dope.
+
+22
+00:01:42,123 --> 00:01:47,486
+By show of hands, how many of you guys use, I had someone in the crowd already say that they use Boomy.
+
+23
+00:01:47,546 --> 00:01:48,867
+Have you guys ever used Boomy before?
+
+24
+00:01:49,460 --> 00:02:03,236
+Okay, that's your OG if you use Boomy, because it was from like two years ago, but it was a music generation model that was actually pretty cool, but didn't get as complex as the music generation models that we have today.
+
+25
+00:02:04,297 --> 00:02:08,162
+How many of you guys have ever used Suno or Udio by showing hands?
+
+26
+00:02:09,002 --> 00:02:09,842
+Okay, nice.
+
+27
+00:02:09,922 --> 00:02:12,063
+Okay, so you guys will be familiar with what I'm gonna do today.
+
+28
+00:02:12,984 --> 00:02:20,947
+Hopefully I can show you guys some advanced prompting techniques at the least, but for the most part, those are the tools that we're gonna be focused on.
+
+29
+00:02:21,827 --> 00:02:25,829
+I was doing this earlier, asking some of the AV crew what you guys' favorite artists are.
+
+30
+00:02:25,849 --> 00:02:31,511
+My man right here in the middle, if you could name your favorite artist of all time, what would it be, who would it be?
+
+31
+00:02:33,392 --> 00:02:33,672
+Yes.
+
+32
+00:02:35,712 --> 00:02:36,853
+Miles Davis, okay.
+
+33
+00:02:37,541 --> 00:02:40,163
+And correct me if I'm wrong, because that's a little bit out of my league.
+
+34
+00:02:40,643 --> 00:02:43,925
+Like, blues, R&B, jazz?
+
+35
+00:02:45,166 --> 00:02:45,306
+OK.
+
+36
+00:02:45,326 --> 00:02:45,526
+OK.
+
+37
+00:02:45,786 --> 00:02:47,588
+I think I have something special for you today.
+
+38
+00:02:48,308 --> 00:02:51,490
+So let's start.
+
+39
+00:02:53,291 --> 00:02:58,455
+I can get into a little bit of what we're going to do as well.
+
+40
+00:03:00,696 --> 00:03:04,398
+And I actually would like to say, because I've already talked about my workshop goal, what I would actually like to say
+
+41
+00:03:05,746 --> 00:03:07,947
+I am not a classically trained musician.
+
+42
+00:03:08,528 --> 00:03:10,369
+I wrote my first song when I was 13.
+
+43
+00:03:11,089 --> 00:03:16,172
+But I welcome any discourse you guys have in terms of accuracy.
+
+44
+00:03:16,192 --> 00:03:20,354
+So if you guys feel like you're actually wrong, that's cool.
+
+45
+00:03:20,414 --> 00:03:20,974
+I welcome that.
+
+46
+00:03:21,054 --> 00:03:31,680
+And I actually have something for you on that link that I showed earlier where you can submit questions or comments live while we're doing this to either correct me or submit a question or whatever.
+
+47
+00:03:32,236 --> 00:03:34,520
+So that was one of the main things I wanted to say.
+
+48
+00:03:34,600 --> 00:03:38,827
+I try to be as accurate as possible, but if I do something wrong, feel free to call me out.
+
+49
+00:03:39,027 --> 00:03:40,329
+I'm comfortable with that.
+
+50
+00:03:40,349 --> 00:03:40,910
+I'm cool with that.
+
+51
+00:03:41,892 --> 00:03:45,517
+And actually, let me make sure I have my stuff pulled up.
+
+52
+00:03:48,553 --> 00:03:51,955
+If you guys can go to this link, there's a link on there that says poll.
+
+53
+00:03:52,295 --> 00:03:57,017
+If you guys can go fill out that poll, I think there's like two or three questions on there.
+
+54
+00:03:57,377 --> 00:04:01,960
+If you guys can go to that link now and start submitting your answers, I'd really, really appreciate that.
+
+55
+00:04:02,020 --> 00:04:10,284
+Again, I want this to be really interactive, but I also want to tailor it to specifically what you guys want to know about AI easy generation.
+
+56
+00:04:15,012 --> 00:04:27,658
+Now I've done some housekeeping, I can kind of get into my journey here.
+
+57
+00:04:28,058 --> 00:04:32,580
+I would say I'm way more of a, first of all, my name's Flo as you guys may or may not know.
+
+58
+00:04:33,241 --> 00:04:36,282
+I'm way more of a songwriter than like a software engineer.
+
+59
+00:04:36,852 --> 00:04:38,513
+But I have a lot of respect for what you guys do.
+
+60
+00:04:39,454 --> 00:04:46,278
+I know enough Python to be dangerous, but beyond that, I'm not really that good at software design or engineering.
+
+61
+00:04:46,759 --> 00:05:03,950
+But I, over the pandemic, took a lot of time out to learn how to write scripts, and I'm really moving into automation, so I need Python for automation for a lot of my stuff, daily, personal, life stuff, and stuff for work as well.
+
+62
+00:05:03,970 --> 00:05:04,991
+The other thing I would say is,
+
+63
+00:05:07,000 --> 00:05:08,742
+I'm really, really big into experimentation.
+
+64
+00:05:10,224 --> 00:05:16,271
+Phlo is actually my artist name, and if you go on Google or YouTube or Spotify, Apple Music, you can actually look me up and find my music.
+
+65
+00:05:16,771 --> 00:05:23,960
+But the truth is that I have a very eclectic taste, and I have experimented in a lot of different genres.
+
+66
+00:05:27,705 --> 00:05:32,250
+A couple years ago, I decided that I wanted to do some split testing, which is pretty odd for an artist.
+
+67
+00:05:32,590 --> 00:05:34,212
+But I did want to do some split testing.
+
+68
+00:05:34,272 --> 00:05:40,879
+And what I really found out was that the same song under two different artists can perform while we debut.
+
+69
+00:05:40,939 --> 00:05:50,869
+So I literally would take the same recording, like I'm a self-taught engineer, would record it at my home or other studios, and upload it under two different artists' names.
+
+70
+00:05:51,229 --> 00:06:00,493
+And depending on the cover art, the marketing, who you try and target when you're posting online in terms of the daily content, I would see that songs would perform differently.
+
+71
+00:06:00,513 --> 00:06:05,675
+So what I basically did was start creating these quote unquote pin names and putting out music that way.
+
+72
+00:06:05,695 --> 00:06:10,157
+And I actually have a pin name that has way more streams than my actual artist name.
+
+73
+00:06:10,177 --> 00:06:15,560
+So if you look at me as an artist, I don't have many streams, but I have a couple pin names that have been viral.
+
+74
+00:06:15,580 --> 00:06:18,781
+I have one that's got like five million streams over the last couple months.
+
+75
+00:06:19,061 --> 00:06:20,502
+And it's just instrumental music.
+
+76
+00:06:20,882 --> 00:06:24,225
+So I'm an artist that does R&B and hip-hop, but I experimented with EDM.
+
+77
+00:06:24,365 --> 00:06:27,967
+I actually have a song with some country influence, believe it or not.
+
+78
+00:06:28,007 --> 00:06:29,569
+So I've just been experimenting a lot.
+
+79
+00:06:29,829 --> 00:06:31,650
+And that's kind of how we got here today.
+
+80
+00:06:31,850 --> 00:06:36,254
+I like to say I was experimenting with multiple genres way before AI music got here.
+
+81
+00:06:36,434 --> 00:06:40,537
+But I love AI music for that reason.
+
+82
+00:06:40,577 --> 00:06:45,721
+And this workshop will cover AI music generation and demystifying it.
+
+83
+00:06:46,001 --> 00:06:47,262
+I kind of like distilling better.
+
+84
+00:06:47,402 --> 00:06:48,443
+But you know, Taji P.T.
+
+85
+00:06:48,483 --> 00:06:50,184
+gave me this word, so I put it in the slides.
+
+86
+00:06:51,815 --> 00:06:57,057
+And we're going to get hands-on with Suno in the video and talk about turning ideas into song.
+
+87
+00:06:57,657 --> 00:07:04,240
+And then, actually, I have a question about this later on, but I really want to talk about opportunities for using AI music.
+
+88
+00:07:04,320 --> 00:07:12,263
+I'm super passionate about distribution and for regular, everyday artists to be able to make an income from their music.
+
+89
+00:07:12,583 --> 00:07:16,585
+So if any of you guys are actually artists, I would love to get into those type of discussions.
+
+90
+00:07:20,969 --> 00:07:21,370
+Let's see.
+
+91
+00:07:21,790 --> 00:07:24,472
+Have you guys, did anybody actually fill out the email I was asking about?
+
+92
+00:07:25,373 --> 00:07:28,035
+Let's see.
+
+93
+00:07:28,055 --> 00:07:28,716
+I'll just connect it.
+
+94
+00:07:31,698 --> 00:07:31,939
+All right.
+
+95
+00:07:32,059 --> 00:07:39,445
+Because I really can start throwing in little tidbits here and there about what you guys want to learn about.
+
+96
+00:07:40,034 --> 00:07:50,522
+I put like, one of the options that I put for the pool is like an advanced option where we can like actually pull down some of the music that Suno is generating, get stems for that music, and start to like mix and master it.
+
+97
+00:07:50,542 --> 00:07:54,925
+So I don't know if any of you guys would actually be interested in that, but I put that as.
+
+98
+00:07:56,026 --> 00:07:56,406
+Yeah?
+
+99
+00:07:56,426 --> 00:07:56,927
+Okay, awesome.
+
+100
+00:07:57,611 --> 00:08:00,914
+Yeah, that was the hardest thing about preparing for this.
+
+101
+00:08:00,934 --> 00:08:04,577
+I just don't know exactly who's going to be in the crowd and what level they're at.
+
+102
+00:08:04,597 --> 00:08:08,881
+So I tried to come up with a couple of different tracks just for this presentation alone.
+
+103
+00:08:09,381 --> 00:08:11,723
+But yeah, I just needed you guys' feedback.
+
+104
+00:08:11,783 --> 00:08:12,904
+So we did do a bunch of solutions.
+
+105
+00:08:12,984 --> 00:08:20,871
+And it looks like content needs, OK, tweaking, a lot of content needs.
+
+106
+00:08:20,911 --> 00:08:21,151
+OK, cool.
+
+107
+00:08:21,789 --> 00:08:23,730
+I have this guy that I call the Pomp Master.
+
+108
+00:08:23,750 --> 00:08:27,631
+If I show up, how many of you guys are in the Suno Udio Discord server?
+
+109
+00:08:29,292 --> 00:08:30,132
+Oh, you're in there?
+
+110
+00:08:30,212 --> 00:08:30,372
+OK, nice.
+
+111
+00:08:30,452 --> 00:08:32,613
+Even for you, I think I'll have a treat.
+
+112
+00:08:32,653 --> 00:08:37,975
+Because there's a couple of people in there that have posted since the beginning of Suno Udio.
+
+113
+00:08:38,996 --> 00:08:43,697
+And this is one guy who's been able to do some really, really cool banjo music and bagpipe music.
+
+114
+00:08:43,717 --> 00:08:44,518
+That's insane.
+
+115
+00:08:44,858 --> 00:08:47,399
+But the pomps are very unintuitive, in my opinion.
+
+116
+00:08:47,439 --> 00:08:49,620
+So you have to see it to understand what it's doing.
+
+117
+00:08:52,332 --> 00:08:55,515
+So with that being said, I'll make sure that I include a lot of content.
+
+118
+00:08:55,535 --> 00:08:57,536
+So thank you for everyone that just came in.
+
+119
+00:08:57,556 --> 00:09:01,279
+I appreciate you guys coming in.
+
+120
+00:09:03,281 --> 00:09:10,226
+Right, so this actually gets into, you might notice that it's, you might notice that it's okay.
+
+121
+00:09:11,327 --> 00:09:14,870
+It did actually work, but I still might play with my computer.
+
+122
+00:09:17,008 --> 00:09:24,510
+This is where we start with the insights that I've learned by studying AI music and how it got to this point over the last couple months.
+
+123
+00:09:25,530 --> 00:09:34,673
+And then I'll get into, it's kind of painful, but I have to play some videos for you guys to catch up to where I'm at in terms of understanding and how this whole thing developed.
+
+124
+00:09:34,713 --> 00:09:39,634
+So we'll have some videos to watch, maybe five or six minutes of videos.
+
+125
+00:09:42,715 --> 00:09:46,336
+When people say AI music,
+
+126
+00:09:47,765 --> 00:09:49,747
+I think that can mean a lot of different things.
+
+127
+00:09:51,248 --> 00:09:59,355
+And when I first started doing my research, it was really frustrating that everyone meant something slightly different.
+
+128
+00:09:59,975 --> 00:10:06,801
+So what I've tried to do is compartmentalize the definitions of AI music and tidy up the definitions.
+
+129
+00:10:06,821 --> 00:10:10,264
+Because there was a lot of blurred lines when I started doing the research.
+
+130
+00:10:12,466 --> 00:10:17,995
+And the way that I compartmentalized this was to say that we have text to music.
+
+131
+00:10:18,840 --> 00:10:23,704
+where you're generating short samples and full songs using text prompts.
+
+132
+00:10:24,184 --> 00:10:30,168
+You have audio to music, and this is where you're taking an existing sound and transforming it into actual music.
+
+133
+00:10:30,689 --> 00:10:35,132
+And you have style transfer, which is basically voice conversion.
+
+134
+00:10:35,593 --> 00:10:41,877
+And voice conversion is actually the first thing that came across when I found AI Music last year, actually.
+
+135
+00:10:42,277 --> 00:10:45,440
+So it's been a long time coming, but I didn't really start doing the research until recently.
+
+136
+00:10:46,400 --> 00:10:51,541
+But I think what most people call AI music is really actually just voice conversion.
+
+137
+00:10:52,181 --> 00:10:55,402
+It's hard to say that now, but maybe when I started doing research, it was.
+
+138
+00:10:55,462 --> 00:11:06,265
+But I would say that the general consumer, what they call AI music is mostly just style transfer, where someone puts their voice and converts it to another voice.
+
+139
+00:11:06,765 --> 00:11:10,806
+And that actually leads into the first video, and I'll go ahead and play it now.
+
+140
+00:11:12,046 --> 00:11:13,226
+You guys may have seen this video.
+
+141
+00:11:13,246 --> 00:11:14,007
+It's actually pretty cool.
+
+142
+00:11:27,244 --> 00:11:31,245
+You might notice that I sound like Kanye West.
+
+143
+00:11:31,305 --> 00:11:31,745
+No easy.
+
+144
+00:11:31,905 --> 00:11:34,806
+Could we turn it up just a little bit?
+
+145
+00:11:34,846 --> 00:11:36,607
+He gets a little louder later.
+
+146
+00:11:40,228 --> 00:11:42,269
+You might notice that I sound like Kanye West.
+
+147
+00:11:42,729 --> 00:11:45,590
+No easy to record a voiceover for me for this video.
+
+148
+00:11:45,610 --> 00:11:46,910
+I didn't learn how to do impressions.
+
+149
+00:11:47,250 --> 00:11:47,990
+This is AI.
+
+150
+00:11:48,210 --> 00:11:51,191
+So let me come back to my original voice for a second because this is crazy.
+
+151
+00:11:51,231 --> 00:11:55,033
+Today on Metaverse, I posted AI Kanye covering a popular song.
+
+152
+00:11:55,073 --> 00:11:56,433
+Here's an example of him singing.
+
+153
+00:11:57,133 --> 00:12:05,437
+That's clearly crazy, and I started thinking, you know, what are the implications of this for the music industry?
+
+154
+00:12:05,757 --> 00:12:11,780
+Now all you have to do is record reference vocals and replace them with a trained model of any musician you like, which is exactly what I did.
+
+155
+00:12:11,800 --> 00:12:14,141
+I found this Kanye style beat on YouTube.
+
+156
+00:12:14,261 --> 00:12:18,003
+I wrote eight bars, and I'm gonna record them now, and then I'm gonna have A.I.
+
+157
+00:12:18,023 --> 00:12:19,583
+Kanye replace me.
+
+158
+00:12:19,803 --> 00:12:22,965
+I got a fantasy that's beautiful, that's dark and twisted.
+
+159
+00:12:23,485 --> 00:12:26,846
+But I attacked a whole religion all because of my ignorance.
+
+160
+00:12:27,226 --> 00:12:28,107
+What was I thinking?
+
+161
+00:12:28,167 --> 00:12:29,087
+That was submission.
+
+162
+00:12:29,187 --> 00:12:30,928
+I lost Adidas, but I'm still Yeezy.
+
+163
+00:12:30,988 --> 00:12:32,828
+Back in the kitchen, man, I'm a genius.
+
+164
+00:12:32,868 --> 00:12:34,709
+Boys in the hood, just like I'm easy.
+
+165
+00:12:34,769 --> 00:12:37,010
+Kanye Weezy, South Side of Chicago.
+
+166
+00:12:37,070 --> 00:12:37,970
+Life ain't easy.
+
+167
+00:12:38,530 --> 00:12:40,311
+All praise be to Lord Jesus.
+
+168
+00:12:40,371 --> 00:12:41,691
+Donna, please rest easy.
+
+169
+00:12:41,711 --> 00:12:42,832
+All right, let me cut it there.
+
+170
+00:12:42,852 --> 00:12:43,412
+Let me cut it there.
+
+171
+00:12:43,492 --> 00:12:46,313
+So let's hear those vocals I just recorded now with Kanye.
+
+172
+00:12:47,353 --> 00:12:50,575
+I got a fantasy that's beautiful, that's dark and twisted.
+
+173
+00:12:51,035 --> 00:12:54,417
+But I attacked the whole religion, all because of my ignorance.
+
+174
+00:12:54,797 --> 00:12:55,678
+What was I thinking?
+
+175
+00:12:55,738 --> 00:12:56,658
+That was some bitching.
+
+176
+00:12:56,718 --> 00:12:58,519
+I lost some leaders, but I'm still easy.
+
+177
+00:12:58,559 --> 00:13:00,400
+Back in the kitchen, man, I'm a genius.
+
+178
+00:13:00,460 --> 00:13:02,301
+Boys in the hood, just like I'm easy.
+
+179
+00:13:02,321 --> 00:13:04,583
+Kanye Weezy, South Side of Chicago.
+
+180
+00:13:04,623 --> 00:13:05,543
+Life ain't easy.
+
+181
+00:13:06,123 --> 00:13:07,924
+All praise be to Lord Jesus.
+
+182
+00:13:07,944 --> 00:13:09,145
+Donna, please rest easy.
+
+183
+00:13:09,205 --> 00:13:10,386
+All right, let me cut it there.
+
+184
+00:13:10,406 --> 00:13:10,986
+Let me cut it there.
+
+185
+00:13:11,006 --> 00:13:12,067
+Yo, that knew you.
+
+186
+00:13:12,987 --> 00:13:15,789
+So you guys kind of get the gist of what he was doing there.
+
+187
+00:13:15,949 --> 00:13:20,072
+But I think a lot of times when we do AI music, that's what it is.
+
+188
+00:13:20,152 --> 00:13:30,519
+It's like someone taking the regular songwriting process where you go get production or do the production yourself, you write the lyrics and then record your own vocals, and then
+
+189
+00:13:31,059 --> 00:13:37,302
+What people are calling AI music is really just style transfer or voice conversion where they're taking that voice and turning it into someone else's.
+
+190
+00:13:37,662 --> 00:13:41,764
+So this is actually the first shout out to this guy's name, Roberto Nixon, if I'm not mistaken.
+
+191
+00:13:42,344 --> 00:13:47,787
+And I saw this video and it kind of, I think it just definitely changed the trajectory of what I was doing at the time.
+
+192
+00:13:47,807 --> 00:13:52,189
+I dropped everything and was like, I have to figure out how the heck he can do this Kanye West voice thing.
+
+193
+00:13:52,777 --> 00:13:56,620
+So I pretty much followed the steps in this video.
+
+194
+00:13:56,881 --> 00:14:01,945
+I dove into some Discord servers and some subreddits and that's how I really figured out how to do this for myself.
+
+195
+00:14:03,546 --> 00:14:10,292
+So I think that's one compartment that I've kind of like created for AI music and put it to the side.
+
+196
+00:14:10,852 --> 00:14:14,295
+The other one, well actually I have a couple more examples of this as well.
+
+197
+00:14:14,315 --> 00:14:20,340
+I think the next one is,
+
+198
+00:14:20,885 --> 00:14:24,371
+How many of you guys with a big bunch of other hands, how many of you guys heard that Drake, A.I.
+
+199
+00:14:24,411 --> 00:14:25,432
+song from the garden last year?
+
+200
+00:14:25,452 --> 00:14:27,556
+Okay, we got a couple people, nice.
+
+201
+00:14:29,437 --> 00:14:34,460
+So I'll play it, I don't want to play the whole thing, but again, this is another example of voice conversion.
+
+202
+00:14:34,480 --> 00:14:39,402
+And a lot of people were saying, oh my god, he pressed a button and generated a whole Drake song, and that's not really the truth.
+
+203
+00:14:39,422 --> 00:14:47,706
+This kid, his name is Ghostwriter, the person behind the song, and he did an interview where he talked about the process of creating the song, and it was all him, except for the actual vocals.
+
+204
+00:14:47,826 --> 00:14:50,227
+He changed his voice to sound like Drake in the beginning.
+
+205
+00:14:50,707 --> 00:14:51,528
+I'll play a little bit of it.
+
+206
+00:15:05,787 --> 00:15:05,990
+Just
+
+207
+00:15:23,024 --> 00:15:25,585
+That's actually my favorite part but I'm gonna cut it off.
+
+208
+00:15:25,625 --> 00:15:31,567
+So the Drake song was interesting to me because I kind of saw an unravel.
+
+209
+00:15:32,047 --> 00:15:40,289
+Like I think I found the video or heard the song and it was like under a thousand views.
+
+210
+00:15:45,971 --> 00:15:50,112
+for being posted in some of those subreddits that I was talking about, but it went super viral.
+
+211
+00:15:50,152 --> 00:15:53,253
+I think he got like 9 million streams in the first 24 hours.
+
+212
+00:15:53,634 --> 00:16:00,636
+He was on his way, that ghostwriter was on his way to charting, of course, before the RIA got ahold of him and was like, we're shutting this down.
+
+213
+00:16:01,036 --> 00:16:03,838
+So he got DMCA'd and the song got wiped from everywhere.
+
+214
+00:16:03,858 --> 00:16:06,860
+You can still find it on the internet, but it pretty much got wiped from everywhere.
+
+215
+00:16:07,480 --> 00:16:10,763
+And I just thought, man, this is really going to change everything.
+
+216
+00:16:10,983 --> 00:16:17,627
+But again, everybody was calling it and saying it was AI music without being specific about what kind of AI music it was.
+
+217
+00:16:18,027 --> 00:16:24,172
+So I have a couple more videos to show you guys, but I just wanted to go over the Drake one, because I thought that was pretty cool.
+
+218
+00:16:24,412 --> 00:16:29,735
+This next one is actually my favorite example of voice conversion that I've seen to date.
+
+219
+00:16:29,755 --> 00:16:30,796
+Let me backtrack a little bit.
+
+220
+00:16:31,923 --> 00:16:38,866
+These two songs that I just played, or videos that I just played, are from roughly a year ago, I think March of last year, April of last year.
+
+221
+00:16:39,507 --> 00:16:49,152
+Since then, the voice conversion tools have gotten 10 times better, and when I was listening to the Kanye West one back then, it literally blew my mind, no joke, a lot.
+
+222
+00:16:49,172 --> 00:16:55,435
+And today, I kind of listen to it, and I'm like, oh, it sounds really artifact-y, it's bad, it doesn't exactly sound like a natural human Kanye West.
+
+223
+00:16:55,795 --> 00:16:59,237
+But today, they have stuff that sounds almost exactly like Kanye West.
+
+224
+00:17:00,404 --> 00:17:07,488
+And I say the kids because when I joined the Discord server, it was literally a bunch of like 14, 15, 16 year olds doing these conversions.
+
+225
+00:17:08,789 --> 00:17:17,394
+But the kids have gotten a lot better at like training these models, these voice models.
+
+226
+00:17:17,414 --> 00:17:21,196
+So the next one is actually my favorite example of voice conversion.
+
+227
+00:17:21,716 --> 00:17:24,638
+How many, by a show of hands, how many of you guys in here are familiar with Brandy Travis?
+
+228
+00:17:26,311 --> 00:17:27,672
+Yeah, I knew I was gonna get y'all back there.
+
+229
+00:17:27,712 --> 00:17:28,512
+Yes, sir.
+
+230
+00:17:28,872 --> 00:17:29,553
+Yes, sir.
+
+231
+00:17:29,933 --> 00:17:36,597
+Okay, so Randy Travis, and forgive me, because I'm not exactly sure how this happened, but he lost his voice some time ago.
+
+232
+00:17:37,557 --> 00:17:53,486
+And Randy Travis and his team kind of saw this AI thing unraveling, or unfolding, and decided to sit down, write a song, produce a song, and then use this voice conversion technique for Randy to sing the song without him actually singing the song.
+
+233
+00:17:53,695 --> 00:17:54,976
+This is one of my favorite examples.
+
+234
+00:17:55,296 --> 00:18:07,345
+I think also in the last year or so, the, maybe temperament is not the best word, but the general public opinion about A.I.
+
+235
+00:18:07,405 --> 00:18:08,826
+music has shifted a little bit.
+
+236
+00:18:08,966 --> 00:18:09,867
+It hasn't gotten too much better.
+
+237
+00:18:09,887 --> 00:18:11,008
+It's really taboo, honestly.
+
+238
+00:18:11,028 --> 00:18:15,351
+I was a little bit nervous about doing this conference, because people just do not like A.I.
+
+239
+00:18:15,391 --> 00:18:16,632
+music at all, don't want it in their lives.
+
+240
+00:18:17,112 --> 00:18:23,237
+But since then, this Randy Travis song came out a couple of months ago, or a couple weeks ago, I think it was.
+
+241
+00:18:24,839 --> 00:18:31,081
+And when I looked at the YouTube comments of this video, the feedback was overwhelmingly positive.
+
+242
+00:18:31,121 --> 00:18:33,762
+People were in the comments saying, I'm a 75-year-old man.
+
+243
+00:18:33,822 --> 00:18:36,423
+I'm bawling tears right now listening to this Randy Travis song.
+
+244
+00:18:37,203 --> 00:18:41,685
+They were like, we don't care how you get Randy, as long as you get him back, we'll take AI or not.
+
+245
+00:18:41,765 --> 00:18:43,145
+You know what I mean?
+
+246
+00:18:43,165 --> 00:18:49,667
+So it just was a really cool example of, I think, how voice conversion can be used in the right way by the original artist.
+
+247
+00:18:49,687 --> 00:18:50,888
+So I'll go ahead and play some of this as well.
+
+248
+00:19:12,366 --> 00:19:24,156
+They had eyes like diamonds, and caught the light Oh, but they were dark and deeper
+
+249
+00:19:36,308 --> 00:19:37,129
+Hello, hello, okay.
+
+250
+00:19:37,249 --> 00:19:39,230
+Sorry, I apologize to the Randy Travis fans in the back.
+
+251
+00:19:39,290 --> 00:19:41,112
+I'm gonna cut him off a little bit.
+
+252
+00:19:41,132 --> 00:19:41,992
+I just wanna keep it going.
+
+253
+00:19:42,092 --> 00:19:51,740
+Even though I'm not super into country music, I thought it was really touching that he was able to get with his team and use AI to create new original music.
+
+254
+00:19:51,780 --> 00:19:54,582
+I thought that was really cool.
+
+255
+00:19:54,602 --> 00:19:57,124
+So that pretty much takes care of the style transfer stuff.
+
+256
+00:19:57,144 --> 00:19:58,285
+I've showed you guys some examples.
+
+257
+00:19:58,465 --> 00:20:01,467
+The next thing I wanna get into is text to music.
+
+258
+00:20:02,628 --> 00:20:05,590
+And I'll go over full songs as opposed to
+
+259
+00:20:08,092 --> 00:20:21,846
+The short samples that I was talking about, if you go, I just want to remind you guys, if you go to the link, AITalk.com slash music, and submit a question on there, I can see a pop-up on my screen, so I can answer it in motion.
+
+260
+00:20:21,866 --> 00:20:26,271
+I also want to repeat it out loud for the transcription and all that good stuff.
+
+261
+00:20:26,291 --> 00:20:27,832
+Okay, so.
+
+262
+00:20:29,858 --> 00:20:31,599
+Text-to-music, text-to-music, text-to-music.
+
+263
+00:20:31,619 --> 00:20:33,220
+I'm gonna show you guys a couple examples.
+
+264
+00:20:33,240 --> 00:20:46,306
+I broke text-to-music down even a little bit further by having, I have a couple folders here, and I think the way I did text-to-music was, yeah, meme songs and samples.
+
+265
+00:20:46,806 --> 00:20:51,669
+Okay, by show of hands, how many of you guys have heard about this Drake and Kendrick Lamar meme going on?
+
+266
+00:20:59,249 --> 00:21:09,625
+So for anyone who hasn't been paying attention, just know that one man said very disparaging words about another man, and then the internet ran with it.
+
+267
+00:21:09,786 --> 00:21:10,988
+So I don't have to catch you up on.
+
+268
+00:21:12,263 --> 00:21:14,085
+18 million songs that these men have recorded now.
+
+269
+00:21:15,066 --> 00:21:18,750
+I couldn't even keep up with myself to be honest with you.
+
+270
+00:21:18,770 --> 00:21:28,620
+Basically the internet ran with this whole concept of BBL Jersey and Kendrick Lamar set a lyric in one of these songs that they had back and forth over the last couple of weeks where he called Drake BBL Jersey.
+
+271
+00:21:29,361 --> 00:21:31,082
+I don't want to explain BBL to y'all.
+
+272
+00:21:32,493 --> 00:21:35,734
+So I hope hopefully you understand what a BBL is, and they call it BBL Jersey.
+
+273
+00:21:35,994 --> 00:21:39,575
+And it's funny because it can be taken a couple different ways.
+
+274
+00:21:39,595 --> 00:21:40,575
+But I'll just play the music.
+
+275
+00:21:41,015 --> 00:21:42,255
+I'm not rambling too much.
+
+276
+00:21:47,437 --> 00:21:47,977
+BBL Jersey.
+
+277
+00:21:48,157 --> 00:21:51,218
+BBL Jersey.
+
+278
+00:22:08,972 --> 00:22:17,099
+My grandma would probably cut me off if I turned that off early, but I'm gonna cut it there and basically say that
+
+279
+00:22:18,168 --> 00:22:33,692
+This song was, to me, this is really what gets to what AI music is, because there's a comedian named King Bolognese who logged into Udio, one of the tools I'm going to tell you about, typed in a prompt, I think typed in some lyrics, if I'm not mistaken, and generated this song.
+
+280
+00:22:33,932 --> 00:22:40,453
+He didn't get in the studio, he didn't record his vocals, there was no voice conversion, he just typed in some words and got this BBL Jersey song.
+
+281
+00:22:43,915 --> 00:22:49,418
+This is like a monumental moment in music as well because it was one of the first times I saw something like this go viral.
+
+282
+00:22:50,139 --> 00:22:57,804
+And I think, we'll get into, I mean we can if you guys are interested, we can get into some of the legality of AI generated music and the copyrights around it.
+
+283
+00:22:59,571 --> 00:23:06,955
+But I think this moment where he created this BBL Jersey song and went viral, it's been used in a bunch of different songs now.
+
+284
+00:23:07,435 --> 00:23:08,696
+It's like monumental.
+
+285
+00:23:08,716 --> 00:23:09,997
+But this is text to music.
+
+286
+00:23:10,097 --> 00:23:11,698
+There was no prior recording.
+
+287
+00:23:11,718 --> 00:23:16,000
+He just generated this song on one shot, a pomp to a song.
+
+288
+00:23:18,121 --> 00:23:23,685
+I think I might have one more good example for, you know, I'm going to play this for a little bit.
+
+289
+00:23:27,648 --> 00:23:36,894
+Eleven Labs is another AI startup that has now entered the text-to-music space, and this is a song that they generated.
+
+290
+00:23:37,435 --> 00:23:38,576
+Again, no prior recordings.
+
+291
+00:23:38,596 --> 00:23:40,057
+This is just text.
+
+292
+00:23:40,677 --> 00:23:42,839
+Music came out the other end, and it went viral on Twitter.
+
+293
+00:23:57,196 --> 00:24:03,778
+Programming young, dreaming that one day we'd make it work.
+
+294
+00:24:04,738 --> 00:24:13,901
+Lines of code we'd write all night, hoping that one day we'd get it right.
+
+295
+00:24:15,181 --> 00:24:16,702
+Can we teach them?
+
+296
+00:24:18,174 --> 00:24:19,214
+Oh, he was about to get into it.
+
+297
+00:24:19,414 --> 00:24:20,635
+I cut off a little too early.
+
+298
+00:24:20,695 --> 00:24:25,136
+But basically, this is a sort of meta song because it's an AI model singing about GPUs.
+
+299
+00:24:25,836 --> 00:24:28,577
+I thought that was pretty cool.
+
+300
+00:24:28,637 --> 00:24:33,698
+But yeah, another text to music song that I would kind of put into the meme song category.
+
+301
+00:24:35,038 --> 00:24:39,759
+That being said, I think I had, oh yeah, so audio to music.
+
+302
+00:24:39,779 --> 00:24:44,961
+These are actually the most interesting samples, examples, and also assurances, if I'm not mistaken.
+
+303
+00:24:49,693 --> 00:24:50,614
+So I'll get into some of these.
+
+304
+00:24:50,634 --> 00:24:51,354
+These are really cool.
+
+305
+00:24:51,394 --> 00:25:11,628
+I think the people who are like musicians or artists who have a lot of talent already, like musical talent already, are into, let me play this, into this style of music generation because it takes an existing sound and turns it into another song.
+
+306
+00:25:11,648 --> 00:25:13,590
+An existing sound and turns it into music, sorry.
+
+307
+00:25:41,528 --> 00:25:43,690
+This is using stable audio.
+
+308
+00:25:43,730 --> 00:25:44,210
+It's another tool.
+
+309
+00:25:44,230 --> 00:25:47,052
+It's not Suno or Udio, but it is called stable audio.
+
+310
+00:25:47,232 --> 00:25:55,638
+And I think this was the first tool I saw that had this feature publicly available where you could put audio in and get a song out or get music out, maybe not a full song.
+
+311
+00:25:56,679 --> 00:26:02,583
+But I really like this because I think it unlocks a lot of different ways to create music.
+
+312
+00:26:03,183 --> 00:26:06,466
+So I think that's, I might have one more example to show you guys.
+
+313
+00:26:08,803 --> 00:26:11,124
+This one was cool, this is also from the Suno team.
+
+314
+00:26:11,144 --> 00:26:14,265
+Has a post-distable audio.
+
+315
+00:26:14,825 --> 00:26:15,285
+This one.
+
+316
+00:26:15,365 --> 00:26:15,785
+Nice, okay.
+
+317
+00:26:35,882 --> 00:26:45,126
+So I thought that was pretty cool because literally all he recorded was his fingers drumming like that on the desk and then out came this full song with the guitar and all these other instruments.
+
+318
+00:26:45,146 --> 00:26:52,648
+So I think that's, you guys kind of get the gist of like what audio to audio model generation or music generation can be like.
+
+319
+00:26:54,969 --> 00:26:59,871
+And I want to say with that, we can get directly into actually generating some songs ourselves.
+
+320
+00:27:00,868 --> 00:27:19,040
+Okay, we can talk about how it works, but you guys didn't really seem so much interested in the technical side when I was looking at the poll, so I could briefly touch on it, but I think, by a show of hands, how many of you guys saw that Suno and Udeo have been, are getting sued this week?
+
+321
+00:27:19,801 --> 00:27:20,361
+You guys saw that?
+
+322
+00:27:21,102 --> 00:27:24,284
+Yeah, the RIAA just filed a complaint against both services.
+
+323
+00:27:24,784 --> 00:27:33,949
+So, and what they're alleging is that these AI models are trained on massive music data sets that are copyrighted and we are
+
+324
+00:27:34,431 --> 00:27:36,752
+without weed, don't put me on no indictments.
+
+325
+00:27:36,772 --> 00:27:45,894
+That's another thing I didn't mention at the beginning, but I have no affiliation to Suno, Udio, Sable Audio, Umi, no one.
+
+326
+00:27:46,334 --> 00:27:53,316
+I just like this stuff and learned it and figured it out and wanted to do a presentation on it.
+
+327
+00:27:53,416 --> 00:27:59,237
+But what they're alleging is that Suno and Udio are infringing on their copyrights by training on this music.
+
+328
+00:28:05,677 --> 00:28:11,381
+Yeah, we had a comment from the audience saying that the last generation sounded like Tom Petty.
+
+329
+00:28:13,002 --> 00:28:21,567
+If you are more interested in how these models actually work, the architecture, transformers versus diffusion, I have a link on the page that I mentioned earlier.
+
+330
+00:28:21,587 --> 00:28:28,551
+If you click on the notes button and scroll all the way to the bottom, I've compiled a list of all of the music model papers.
+
+331
+00:28:28,971 --> 00:28:31,293
+So if you guys are interested, you can find it there.
+
+332
+00:28:34,393 --> 00:28:45,381
+Okay, so what I want to do now, as we get into Udio and Suno, there is a lot less people than I thought there was going to be, so this will work well, hopefully.
+
+333
+00:28:45,762 --> 00:28:53,688
+But there's a business card on the table in front of you, and that business card has a secret code on it.
+
+334
+00:28:54,668 --> 00:28:58,831
+It's a little PVP, survival of the fittest, like may the best man win.
+
+335
+00:28:59,452 --> 00:29:02,174
+But if you take that secret code,
+
+336
+00:29:02,830 --> 00:29:19,744
+go to the link that I showed earlier, let me put it on the screen again, and click on the gateway button, there should be a green gateway button that looks like this, and you put in that code, what will pop up is a username and a password.
+
+337
+00:29:21,285 --> 00:29:27,711
+If you use that username and password to sign into any of these services, let me try and make it a little bigger than that,
+
+338
+00:29:31,909 --> 00:29:35,750
+If you want to get into Oudio, you can use Google, Discord, Twitter, Apple.
+
+339
+00:29:35,811 --> 00:29:36,951
+I've signed up for all the services.
+
+340
+00:29:36,971 --> 00:29:43,073
+If you want to get into Suno, you can do Discord, Google, or Hotmail, Microsoft, whatever they're calling it now.
+
+341
+00:29:45,474 --> 00:29:46,555
+And then you can sign in.
+
+342
+00:29:46,735 --> 00:29:50,176
+So what I did for this presentation, so you guys could generate music freely.
+
+343
+00:29:50,336 --> 00:29:55,538
+Because I know in the show notes for this workshop, I put that you guys should have your own account.
+
+344
+00:29:55,818 --> 00:30:00,380
+But I also thought it would be cool if we could do unlimited generation as opposed to what they give you on the free account.
+
+345
+00:30:00,953 --> 00:30:06,660
+So what I did was I signed up and paid for a Premier account for Oudio and Suno and gave you guys a login just now.
+
+346
+00:30:07,041 --> 00:30:11,947
+So if you go log in, you can generate music as we're talking about the next couple steps.
+
+347
+00:30:15,458 --> 00:30:39,998
+Just know that, I think 2FA is on Apple, if I'm not mistaken, so there might be some difficulty getting in, but just try and get into one of these services, then log into Udio or Suno, and then the URL for that, I think I have it here, is udio.com, once you've signed into one of the other authorization services, or suno.com will get you into one of these sites.
+
+348
+00:30:41,977 --> 00:30:42,237
+Works?
+
+349
+00:30:42,418 --> 00:30:42,658
+Nice.
+
+350
+00:30:42,998 --> 00:30:43,258
+Awesome.
+
+351
+00:30:43,278 --> 00:30:43,919
+We got somebody in?
+
+352
+00:30:44,639 --> 00:30:45,140
+Oh, another person.
+
+353
+00:30:45,200 --> 00:30:46,041
+Awesome, awesome, awesome.
+
+354
+00:30:46,941 --> 00:30:47,382
+Hey, PVP.
+
+355
+00:30:47,442 --> 00:30:48,583
+Some of you guys might not make it.
+
+356
+00:30:52,246 --> 00:31:04,716
+But yeah, I just wanted to do that so you guys had a... And actually, what I'm going to do as well, when you guys are in your seats generating songs, there's another link on this aietalk.com slash music page where it says submissions.
+
+357
+00:31:04,937 --> 00:31:07,559
+What I want to do, we might be tight on time,
+
+358
+00:31:08,649 --> 00:31:14,012
+But what I want to do is have everyone who generates songs here in person to submit to this link.
+
+359
+00:31:14,452 --> 00:31:15,752
+It's basically just a Google form.
+
+360
+00:31:16,013 --> 00:31:24,697
+So you generate some music, take the share link to that music on either service, click on this link here, submissions, and submit your song.
+
+361
+00:31:24,917 --> 00:31:35,042
+And I think what I'm going to do at the end is just take a random number generator, and two people will be selected to keep access to these two accounts that I set up.
+
+362
+00:31:35,421 --> 00:31:41,366
+So one of you guys will walk away with like a Suno account, one of you guys will walk away with a Leo account.
+
+363
+00:31:41,386 --> 00:31:42,807
+And I decided, I paid for the premiere.
+
+364
+00:31:43,047 --> 00:31:44,088
+I didn't pay for the whole year.
+
+365
+00:31:44,108 --> 00:31:48,071
+After they got sued, I was like, yeah, I might not want to invest.
+
+366
+00:31:49,952 --> 00:31:51,413
+So I just went ahead and did 30 days.
+
+367
+00:31:54,056 --> 00:31:54,356
+OK.
+
+368
+00:31:54,756 --> 00:31:58,239
+So we can get into some of the techniques.
+
+369
+00:31:58,279 --> 00:32:03,563
+While we're on this topic, and you guys are hopefully generating in your seats as well, does anyone here have a birthday this week?
+
+370
+00:32:05,410 --> 00:32:06,911
+Nice, my man, crazy Travis.
+
+371
+00:32:10,492 --> 00:32:10,972
+What's your name?
+
+372
+00:32:10,992 --> 00:32:11,732
+Patrick.
+
+373
+00:32:12,253 --> 00:32:12,653
+Patrick.
+
+374
+00:32:13,013 --> 00:32:16,314
+OK, I think what we're going to do is generate a birthday song for Patrick.
+
+375
+00:32:16,354 --> 00:32:21,516
+And I'm going to do that from my account.
+
+376
+00:32:21,596 --> 00:32:23,417
+Immortalize Patrick.
+
+377
+00:32:23,497 --> 00:32:24,157
+One more time?
+
+378
+00:32:24,677 --> 00:32:25,537
+I'll be immortalized.
+
+379
+00:32:25,877 --> 00:32:27,698
+Yes, absolutely.
+
+380
+00:32:28,318 --> 00:32:29,119
+Patrick, my man.
+
+381
+00:32:34,940 --> 00:32:35,941
+Randy, Travis.
+
+382
+00:32:35,961 --> 00:32:37,942
+Oh, they're going to block that fan.
+
+383
+00:32:38,662 --> 00:32:39,802
+And music.
+
+384
+00:32:41,783 --> 00:32:43,664
+I'm not even going to try.
+
+385
+00:32:43,684 --> 00:32:44,704
+Usually, you can just write it.
+
+386
+00:32:46,645 --> 00:32:47,125
+There you go.
+
+387
+00:32:49,466 --> 00:32:51,447
+Yeah, they just, I don't know.
+
+388
+00:32:51,467 --> 00:32:53,288
+Udio may not be as bad about this.
+
+389
+00:32:53,868 --> 00:32:57,730
+But if you put artist names, and obviously, now because they're being sued,
+
+390
+00:32:58,203 --> 00:33:02,445
+But if you put artist names, they have a content filter, you know what I mean, they don't.
+
+391
+00:33:02,465 --> 00:33:08,767
+Yeah, but I try to put a payment in, because I'm just adding it, you're giving me some info, and then like Detroit style, it always put it.
+
+392
+00:33:09,027 --> 00:33:09,588
+Absolutely.
+
+393
+00:33:10,148 --> 00:33:13,849
+I'm going to talk about that as well, like ways to kind of get around the filters.
+
+394
+00:33:13,989 --> 00:33:15,030
+But yeah, that definitely works.
+
+395
+00:33:15,510 --> 00:33:26,975
+We had a comment from the audience that basically said, if you change the spelling up a little bit, and then put like the style of music that the artist is related to, you can reduce the scale.
+
+396
+00:33:29,028 --> 00:33:29,588
+An attorney.
+
+397
+00:33:29,848 --> 00:33:32,249
+He's a patent attorney, so put that in there.
+
+398
+00:33:32,349 --> 00:33:32,969
+Oh, shit.
+
+399
+00:33:33,409 --> 00:33:34,569
+Oh, you're the one suing us.
+
+400
+00:33:34,769 --> 00:33:39,490
+Let's put in some... Patrick, what do you like?
+
+401
+00:33:39,530 --> 00:33:45,231
+What kind of music do you like?
+
+402
+00:33:45,311 --> 00:33:47,291
+Pretty eclectic.
+
+403
+00:33:57,558 --> 00:33:58,438
+Okay, the band.
+
+404
+00:33:58,758 --> 00:34:00,699
+Rockabilly is the band.
+
+405
+00:34:00,719 --> 00:34:01,960
+Which is what genre?
+
+406
+00:34:03,940 --> 00:34:04,821
+Rockabilly.
+
+407
+00:34:06,221 --> 00:34:06,661
+One more time.
+
+408
+00:34:06,781 --> 00:34:07,382
+Rockabilly.
+
+409
+00:34:08,002 --> 00:34:08,722
+Rockabilly.
+
+410
+00:34:09,002 --> 00:34:10,843
+I'll be honest with you, I'm lost.
+
+411
+00:34:11,123 --> 00:34:13,464
+You said the band?
+
+412
+00:34:13,924 --> 00:34:14,344
+The band.
+
+413
+00:34:14,624 --> 00:34:15,565
+The band, yeah.
+
+414
+00:34:15,605 --> 00:34:21,447
+Let's go ahead and generate a song for my boy Patrick.
+
+415
+00:34:23,305 --> 00:34:27,167
+And then I'm going to take the same prompt.
+
+416
+00:34:27,327 --> 00:34:30,408
+I'm kind of getting into some of the prompting techniques here.
+
+417
+00:34:30,448 --> 00:34:34,911
+But you guys are able to see this screen, I hope, and see what I'm doing.
+
+418
+00:34:38,552 --> 00:34:41,634
+And then we'll play a song.
+
+419
+00:34:41,674 --> 00:34:43,855
+Couldn't generate that song description name, Rainy Travis.
+
+420
+00:34:45,696 --> 00:34:47,017
+What about Tandy Ravis?
+
+421
+00:34:49,738 --> 00:34:51,739
+I think like four or eight.
+
+422
+00:35:01,634 --> 00:35:02,314
+Who is Ravis?
+
+423
+00:35:03,835 --> 00:35:04,735
+Listen, brother, just give me my song.
+
+424
+00:35:04,755 --> 00:35:04,955
+All right.
+
+425
+00:35:05,055 --> 00:35:18,098
+All right, so I'm not monologuing the whole time.
+
+426
+00:35:18,138 --> 00:35:18,918
+I'm going to wrap it up.
+
+427
+00:35:19,078 --> 00:35:24,680
+But the way I think of these two different services is that Oudio is more like a songwriting partner.
+
+428
+00:35:25,882 --> 00:35:31,444
+They have an experimental model that you guys have access to if you log into that premier account that I paid for.
+
+429
+00:35:31,544 --> 00:35:36,046
+But the default audio experience is that you generate 30 seconds of music at a time.
+
+430
+00:35:36,606 --> 00:35:46,729
+And you can either extend that idea, remix that idea, or there's a third option I didn't write here and you can scrap it because a lot of times you get weird stuff when you're not great at prompting.
+
+431
+00:35:50,148 --> 00:35:58,373
+You can also use in-painting to modify specific sections of a song, like if you want to change or tweak one or two little things.
+
+432
+00:35:58,954 --> 00:36:06,699
+And then now they have this feature within Udio where you can do the audio to audio and it allows you to upload music.
+
+433
+00:36:06,719 --> 00:36:12,883
+So if you are an artist and you write songs or have written a song before or spoken word or anything,
+
+434
+00:36:14,699 --> 00:36:19,982
+I would urge you to try to take one of your creations, especially if you've recorded it, it gets crazy.
+
+435
+00:36:20,723 --> 00:36:31,550
+If you've recorded some music before, you should take the tempo, the key that that song is in, and your lyrics, and put it into Udio and see what comes out the other end.
+
+436
+00:36:31,570 --> 00:36:32,711
+It's blown my mind a couple times.
+
+437
+00:36:32,751 --> 00:36:37,374
+I've taken a couple of my own songs and put them in, and it gets crazy what comes out the other side.
+
+438
+00:36:37,394 --> 00:36:39,715
+Like, Udio does me better than I do you sometimes.
+
+439
+00:36:41,147 --> 00:36:47,215
+Honestly, so it's a really cool experience if you have like a pre-existing music you can really play with it a lot.
+
+440
+00:36:47,756 --> 00:36:53,143
+And in a way that I think about Suno is your in-house music producer.
+
+441
+00:36:54,545 --> 00:36:57,089
+I like to describe it in a way that I feel like
+
+442
+00:36:59,232 --> 00:37:03,334
+Somewhere in the system prompt of Suno's model, they have like top 40 music in there.
+
+443
+00:37:03,354 --> 00:37:05,615
+Because it always comes out really polished and clean.
+
+444
+00:37:05,915 --> 00:37:09,576
+And maybe it's the way that the data that they put into the model in the first place.
+
+445
+00:37:09,956 --> 00:37:14,378
+But my experience with Suno has been that it just comes out really, really clean.
+
+446
+00:37:15,459 --> 00:37:16,199
+Top 40-ish.
+
+447
+00:37:16,579 --> 00:37:20,681
+One thing it's gotten really, really good at lately is like a side note.
+
+448
+00:37:21,607 --> 00:37:33,395
+is that when I first, I personally have onboarded like I think a dozen or so people over the last couple weeks because I wanted to understand what is the actual use case for these services.
+
+449
+00:37:33,695 --> 00:37:37,818
+So I just started onboarding friends and family, some of my music friends, people that are not into music at all.
+
+450
+00:37:38,158 --> 00:37:50,286
+And what I found a couple weeks ago was that like when I would generate songs, if you're not super specific in counting the syllables in each line of the song when you're getting into the custom mode of Zuno,
+
+451
+00:37:51,807 --> 00:38:00,632
+The timing of the beat and the artist, quote unquote, the vocals, lyrics, gets super off, really, really, really off.
+
+452
+00:38:00,652 --> 00:38:02,132
+But they've gotten really good about this lately.
+
+453
+00:38:02,753 --> 00:38:06,215
+The last couple songs I've generated from Suno aren't off.
+
+454
+00:38:06,715 --> 00:38:10,137
+The song structure's a lot better, because that's another tip we'll get into.
+
+455
+00:38:10,157 --> 00:38:16,420
+The song structure really has improved a lot in Suno over the last couple weeks.
+
+456
+00:38:17,677 --> 00:38:21,640
+But it's more or less the same, just the outputs are a little bit different from what we have.
+
+457
+00:38:22,780 --> 00:38:26,423
+And now we can listen to it.
+
+458
+00:38:26,443 --> 00:38:29,365
+So have you guys, anyone submitted any songs yet?
+
+459
+00:38:29,385 --> 00:38:31,847
+Let me see, let me check.
+
+460
+00:38:34,749 --> 00:38:36,910
+I was just generating some music for my boy Patrick.
+
+461
+00:38:36,930 --> 00:38:37,891
+We're going to play that in a second.
+
+462
+00:38:37,911 --> 00:38:39,832
+But that was the basic tutorial.
+
+463
+00:38:40,412 --> 00:38:41,413
+It's about as simple as it gets.
+
+464
+00:38:41,453 --> 00:38:44,975
+It really, really lowers the barrier to entry for creating music.
+
+465
+00:38:46,650 --> 00:38:52,894
+We can get into some other stuff about like more conversations about that, but I think for now I'll just say that it lowers the barrier.
+
+466
+00:38:53,194 --> 00:38:58,677
+It makes it easier to create stuff for, you know, specific situations.
+
+467
+00:38:58,777 --> 00:38:59,858
+Okay, nice, we have a couple submissions.
+
+468
+00:38:59,878 --> 00:39:00,778
+We have a couple submissions.
+
+469
+00:39:01,258 --> 00:39:11,944
+But the gist of it is you go to video.com, you log in, you go to this, oh, they used to have, oh, I guess here at the top, it always says recreate.
+
+470
+00:39:12,625 --> 00:39:16,407
+Then you can type in, oh, what's another one?
+
+471
+00:39:17,520 --> 00:39:21,502
+The AI Engineer World's Fair.
+
+472
+00:39:23,162 --> 00:39:27,124
+I'm sorry, a song about the AI Engineer World's Fair.
+
+473
+00:39:31,446 --> 00:39:40,750
+And I know the organizer Benjamin Dunphy really likes old school hip hop.
+
+474
+00:39:40,790 --> 00:39:42,671
+So I'll generate a song.
+
+475
+00:39:43,131 --> 00:39:45,812
+So you come in, you type in your prompt, you hit create.
+
+476
+00:39:46,690 --> 00:39:48,071
+There's a couple of different options out here.
+
+477
+00:39:48,191 --> 00:39:53,773
+Again, if you have a free account, you won't need to see this experimental longer song.
+
+478
+00:39:53,873 --> 00:39:59,796
+You'll be defaulted to the UDIO32 model, but you can come in and write your own lyrics on top of this prompt that you just put in.
+
+479
+00:40:02,157 --> 00:40:06,719
+Or you can select to only have an instrumental generated as opposed to a full song with lyrics and everything.
+
+480
+00:40:08,643 --> 00:40:11,787
+So at its core, that's how it works for pretty much all these services as well.
+
+481
+00:40:11,967 --> 00:40:15,211
+There's not so much beyond that that you need to know to start generating music.
+
+482
+00:40:15,231 --> 00:40:23,020
+I would argue that there's a lot more that you need to know if you want to get good at it, but that's pretty much how we generate music on both services.
+
+483
+00:40:24,571 --> 00:40:29,892
+And what I like to do, just to get a nice even comparison and choose the same exact prompt, I'll refresh the page.
+
+484
+00:40:29,972 --> 00:40:39,535
+Because for some reason, they're really buggy sometimes, where if you generate song after song without refreshing the page, you get extensions of songs as opposed to a brand new song.
+
+485
+00:40:41,235 --> 00:40:45,256
+But I will go ahead and create based on this prompt.
+
+486
+00:40:48,903 --> 00:40:51,445
+And then I'm going to come back, because we've now gone through the basic tutorial.
+
+487
+00:40:51,545 --> 00:40:54,307
+I'm going to come back and look at some questions, because I know some questions came in.
+
+488
+00:40:54,868 --> 00:40:55,108
+Nice.
+
+489
+00:40:57,190 --> 00:41:03,415
+And in the meantime, while I'm getting my thoughts together, I'm going to play my song, the song that was created for Patrick.
+
+490
+00:41:04,516 --> 00:41:05,517
+Wishing him a happy birthday.
+
+491
+00:41:05,537 --> 00:41:06,617
+Oh, moderation error.
+
+492
+00:41:08,399 --> 00:41:10,761
+They didn't like your, my Randy Travis.
+
+493
+00:41:10,781 --> 00:41:14,804
+Let's go ahead and play this one.
+
+494
+00:41:22,222 --> 00:41:31,717
+It's your day, Patrick, we're singing loud for you Oh yes, oh yes, it's true It's your time, Patrick, celebrate the whole day through
+
+495
+00:42:01,428 --> 00:42:04,470
+We know, Patrick, you love that rock and roll.
+
+496
+00:42:05,010 --> 00:42:08,432
+Oh, yeah, yeah, oh, yeah.
+
+497
+00:42:08,452 --> 00:42:10,232
+And country hits you feel in your soul.
+
+498
+00:42:10,312 --> 00:42:12,313
+Oh, yeah, oh, yes.
+
+499
+00:42:12,373 --> 00:42:15,555
+Patrick, what you think?
+
+500
+00:42:15,575 --> 00:42:16,536
+It's great.
+
+501
+00:42:17,196 --> 00:42:17,776
+Thank you.
+
+502
+00:42:17,916 --> 00:42:21,738
+It's a theme song for my sitcom now.
+
+503
+00:42:22,419 --> 00:42:24,660
+Patrick said it's the theme song for his sitcom.
+
+504
+00:42:24,680 --> 00:42:26,180
+I'm going to play these other two quick.
+
+505
+00:42:26,200 --> 00:42:27,141
+I just want to hear what they sound like.
+
+506
+00:42:34,930 --> 00:42:38,353
+Real quick, if you click on the actual song name, you can see the lyrics on the Suno side.
+
+507
+00:42:41,155 --> 00:43:01,191
+Birthday candles flame so bright For a connoisseur of music's life Rocking through the day and night Patrick's world is pure delight
+
+508
+00:43:07,022 --> 00:43:09,902
+I'm going to try the other version and see if, was that more your speed, Patrick?
+
+509
+00:43:09,922 --> 00:43:11,163
+No, they were both great.
+
+510
+00:43:11,803 --> 00:43:12,563
+Oh, awesome.
+
+511
+00:43:12,583 --> 00:43:14,883
+OK, all right.
+
+512
+00:43:15,003 --> 00:43:26,085
+We've got five minutes left.
+
+513
+00:43:26,585 --> 00:43:34,387
+OK, so either they generated the same song twice or, yeah, maybe.
+
+514
+00:43:36,267 --> 00:43:36,487
+Yeah.
+
+515
+00:43:36,994 --> 00:43:38,614
+Let's see what the AI engineer world's here is on.
+
+516
+00:43:38,894 --> 00:43:41,655
+And actually, let's address these questions, because we only have a couple minutes left.
+
+517
+00:43:44,855 --> 00:43:48,696
+And then I'll get into the notes real quick, because I did want to show you guys some of the prompt stuff.
+
+518
+00:43:48,856 --> 00:43:53,617
+The truth is that I have everything under the notes section, pretty much everything I talked about today.
+
+519
+00:43:54,077 --> 00:44:04,339
+Also, when the recording becomes available, you can come back to the same page, get access to the recording, and then I'll hopefully have the transcript up in an hour, because I recorded it myself.
+
+520
+00:44:05,677 --> 00:44:16,304
+But if you come here to this page, aietalk.com slash music, and click on the notes section, and you want to now listen to me talk about the prompts, you can find the prompt stuff yourself.
+
+521
+00:44:17,265 --> 00:44:20,767
+Not quite all the way at the bottom, but here close to the bottom.
+
+522
+00:44:21,605 --> 00:44:26,887
+And this is a GPT prompt, meaning you literally can go to chat GPT, use this prompt.
+
+523
+00:44:26,947 --> 00:44:35,650
+It got a little bit weird, like for some reason when I use these closing brackets in GitHub, it like basically disappears the whole, you won't even see lyrics anymore.
+
+524
+00:44:36,050 --> 00:44:40,151
+But basically what you can do is, I think even this would work, like GPT-4 is now smart enough to do this.
+
+525
+00:44:40,531 --> 00:44:48,274
+You can take and you can put in this template, and then actually fill in the top here where it says song description, and GPT will actually produce some coherent lyrics.
+
+526
+00:44:48,394 --> 00:44:50,615
+And it allows for better music generation when you
+
+527
+00:44:51,475 --> 00:44:58,960
+come in with the lyrics as opposed to giving it a general topic and hoping it comes up with the lyrics itself, you can kind of tweak the lyrics yourself before you start to generate it.
+
+528
+00:44:59,240 --> 00:45:00,281
+So that's the GPT prompt.
+
+529
+00:45:00,541 --> 00:45:08,706
+And then for the music model prompts, these are pretty much just examples of what we just did with Patrick and the AI Engineer World's Fair song.
+
+530
+00:45:09,046 --> 00:45:15,070
+It's just like a general description of a song that you want to hear, that you want to generate, and then it pops out the other end.
+
+531
+00:45:19,488 --> 00:45:20,908
+Super pressed for time.
+
+532
+00:45:22,069 --> 00:45:30,211
+There are some official Oudio and Zuno tips that are very useful as well.
+
+533
+00:45:30,411 --> 00:45:33,271
+And then here, I kind of want to get into the prompt matching thing, actually.
+
+534
+00:45:35,852 --> 00:45:46,074
+Philip asked, is there a way to do voice transfer of a more generic voice rather than a specific voice, referring to the voice conversion stuff that we talked about earlier?
+
+535
+00:45:46,754 --> 00:45:48,875
+And I think the end of that question got cut off.
+
+536
+00:45:50,748 --> 00:45:51,228
+As you said, like.
+
+537
+00:45:51,248 --> 00:46:04,392
+Are you talking about doing voice conversion training, like training models yourself, like going to one of the services or downloading the tools?
+
+538
+00:46:04,833 --> 00:46:07,333
+You literally can just take and blend multiple voices.
+
+539
+00:46:07,413 --> 00:46:18,317
+So the way that it works is like you need, depending on what service or model you're using or what training tools that you're using, you need like minimum six seconds of someone's voice to start training.
+
+540
+00:46:19,157 --> 00:46:21,499
+and you get like a kind of coherent model after that.
+
+541
+00:46:21,759 --> 00:46:28,363
+But what you can essentially do is just six seconds of your voice, six seconds of his voice, six seconds of Eminem, and it kind of blends it together.
+
+542
+00:46:28,383 --> 00:46:36,368
+Or you can just go to a TTS service and get like an actual robot voice, like a voice that doesn't belong to a real person, and then use that to train on.
+
+543
+00:46:36,749 --> 00:46:38,830
+So yeah, for copyright purposes, yeah, you can do that.
+
+544
+00:46:42,572 --> 00:46:48,076
+Okay, what recommendations do you have to help advocate for the responsible and ethical use
+
+545
+00:46:48,737 --> 00:46:52,360
+Yeah, sorry about that.
+
+546
+00:46:52,420 --> 00:46:57,384
+I don't know why the questions are getting cut off.
+
+547
+00:46:57,884 --> 00:47:00,006
+Ethical use of AI music.
+
+548
+00:47:04,350 --> 00:47:04,990
+That's a good one.
+
+549
+00:47:05,631 --> 00:47:06,151
+I'm going to be honest.
+
+550
+00:47:06,171 --> 00:47:08,153
+I'm going to plead the fifth because I'm not a lawyer.
+
+551
+00:47:09,354 --> 00:47:10,475
+I'm going to be completely honest.
+
+552
+00:47:10,515 --> 00:47:12,296
+I'm going to be completely honest.
+
+553
+00:47:12,496 --> 00:47:13,938
+Ethics have nothing to do with law.
+
+554
+00:47:15,058 --> 00:47:16,580
+Oh, yeah, yeah.
+
+555
+00:47:17,435 --> 00:47:17,815
+Good point.
+
+556
+00:47:18,536 --> 00:47:22,839
+What tool generates the best clone voice that can match emotional tone like Kendrick Lamar's Euphoria?
+
+557
+00:47:23,280 --> 00:47:23,860
+Three switches.
+
+558
+00:47:25,041 --> 00:47:25,922
+What's the best clone voice?
+
+559
+00:47:25,942 --> 00:47:27,443
+I would definitely look into RVC.
+
+560
+00:47:27,523 --> 00:47:29,024
+If you can, you can use RVC in the cloud.
+
+561
+00:47:29,044 --> 00:47:33,528
+You don't have to, like, when you Google RVC, there comes up a bunch of tutorials on how to run it yourself locally.
+
+562
+00:47:33,588 --> 00:47:34,489
+You do not have to do that.
+
+563
+00:47:34,509 --> 00:47:39,953
+You can run it in the cloud because you need some decent hardware to do, like, computer hardware to do it.
+
+564
+00:47:40,213 --> 00:47:41,194
+But definitely look into RVC.
+
+565
+00:47:41,234 --> 00:47:42,975
+It's the best right now.
+
+566
+00:47:43,276 --> 00:47:44,477
+Can we have access to the slides?
+
+567
+00:47:44,537 --> 00:47:44,737
+Yeah.
+
+568
+00:47:45,908 --> 00:47:48,030
+And my time is up shortly.
+
+569
+00:47:48,230 --> 00:47:49,491
+Oh, oh, did my thing go to sleep?
+
+570
+00:47:50,272 --> 00:47:58,118
+It did go to sleep.
+
+571
+00:47:58,218 --> 00:47:59,539
+Oh, it said log into, who do you want to know?
+
+572
+00:48:02,642 --> 00:48:03,002
+Really?
+
+573
+00:48:04,904 --> 00:48:08,987
+Oh, okay, okay, sorry.
+
+574
+00:48:09,007 --> 00:48:10,729
+That's my blunder.
+
+575
+00:48:13,912 --> 00:48:14,532
+That was pretty much it.
+
+576
+00:48:14,552 --> 00:48:17,533
+Rate Your Music is something you should definitely check out.
+
+577
+00:48:17,593 --> 00:48:32,018
+What someone basically reverse engineered is that these models were trained on labels from Rate Your Music, so you can almost reverse engineer exactly what sound you want by going to Rate Your Music, typing in an artist name, typing in a genre, or
+
+578
+00:48:33,951 --> 00:48:41,458
+We're really just typing in what you want to hear and then using whatever labels they put on that music you put it back into the model itself sooner or later.
+
+579
+00:48:41,698 --> 00:48:47,423
+Stable audio sometimes I think and you can get like very very close to a specific sound.
+
+580
+00:48:47,443 --> 00:48:50,186
+I don't want to say specific artists but yeah you can get pretty close.
+
+581
+00:48:52,928 --> 00:48:56,831
+Yes and I was going to get into like the law thing.
+
+582
+00:48:57,762 --> 00:48:59,943
+You want me to differentiate between ethics and law, and I understand.
+
+583
+00:48:59,963 --> 00:49:02,424
+But I was going to get into it a little bit, but we kind of ran out of time.
+
+584
+00:49:02,464 --> 00:49:03,905
+So I apologize for that.
+
+585
+00:49:03,945 --> 00:49:06,166
+If you guys would like, I love to talk about this stuff all day.
+
+586
+00:49:06,386 --> 00:49:10,648
+If you want to approach me after the workshop, and we chop it up all day about this stuff, I love it.
+
+587
+00:49:10,668 --> 00:49:11,629
+Yeah.
+
+588
+00:49:12,829 --> 00:49:21,113
+And then what I'll do for giving away the accounts, maybe I'll do like a live stream or something like that, and do like a grab everybody's email we submitted.
+
+589
+00:49:21,153 --> 00:49:23,875
+Because I think we had 12 submissions.
+
+590
+00:49:23,895 --> 00:49:24,595
+Let me refresh.
+
+591
+00:49:25,660 --> 00:49:26,661
+I think we had 12 submissions.
+
+592
+00:49:26,701 --> 00:49:28,882
+And I'll pick somebody and just send you guys.
+
+593
+00:49:28,962 --> 00:49:31,924
+I'll change the username and password so everybody can't log into your stuff.
+
+594
+00:49:32,364 --> 00:49:34,105
+And then I'll give you the accounts.
+
+595
+00:49:34,405 --> 00:49:36,267
+But yeah, I appreciate you guys for coming.
+
+596
+00:49:36,287 --> 00:49:39,949
+I hope you guys got something out of this and walked away with some music, generators, and stuff.
+
+597
+00:49:40,389 --> 00:49:43,031
+And I think I'll play a song to go out.
+
+598
+00:49:46,373 --> 00:49:52,937
+Walking through the fair, copper wires in the air, coders in the screen.
+
+599
+00:50:14,963 --> 00:50:16,264
+I wonder what we have generated.
+
+600
+00:50:19,745 --> 00:50:24,928
+Oh, oh, first, because I just saw the question that someone said, stems, how to like pull the stems out and like edit them.
+
+601
+00:50:25,588 --> 00:50:41,116
+There's a tool, again, not a, like I have no affiliation with them, but you just go to, actually the easy way to do this is let's say we just take this happy birthday song by Patrick, we go to suno.com, all you have to do is suno.com,
+
+602
+00:50:42,196 --> 00:50:54,605
+sunodaw.com, like literally go to the link where you just generated the song, type in DAW, Digital Audio Workstation, at the end of the URL, not the end of the URL, but the end of the domain name, and hit enter.
+
+603
+00:50:55,686 --> 00:51:02,031
+And I think it takes anywhere from 30 seconds to, let's go ahead and sign in real quick.
+
+604
+00:51:04,144 --> 00:51:08,006
+to 90 seconds, I've had to wait longer for some of the songs because it's more complicated to do.
+
+605
+00:51:08,947 --> 00:51:25,338
+Sorry, guys, I forgot to mention this, but yeah, like if you go and do that, type in DAW at the end of the suno song, it'll pull that exact song that you just generated into this digital audio workstation and give you stem by stem and then let you control the volume of each specific stem.
+
+606
+00:51:25,498 --> 00:51:27,739
+And by stem I just mean each specific instrument.
+
+607
+00:51:27,999 --> 00:51:30,341
+They do all the different instruments and then the vocal itself.
+
+608
+00:51:30,661 --> 00:51:33,723
+So this is a really, really cool tool that I think is like a startup
+
+609
+00:51:37,259 --> 00:51:44,503
+But it's a really, really cool tool for like being able to get more control out of your generations.
+
+610
+00:51:46,124 --> 00:51:49,386
+So I just wanted to.
+
+611
+00:51:49,406 --> 00:51:51,087
+So digital audio workstation.
+
+612
+00:51:52,368 --> 00:51:53,068
+And you can like.
+
+613
+00:51:54,909 --> 00:51:59,992
+And let's say I don't like the vocals, but I really like the music.
+
+614
+00:52:07,059 --> 00:52:15,545
+And this is just vocal.
+
+615
+00:52:15,826 --> 00:52:17,007
+It's the bass.
+
+616
+00:52:37,344 --> 00:52:43,226
+Rock tunes flowing in his veins.
+
+617
+00:52:44,527 --> 00:52:51,709
+Patrick exits through the rain.
+
+618
+00:52:51,869 --> 00:52:57,631
+Happy birthday, Patrick dear.
+
+619
+00:52:57,671 --> 00:53:02,233
+Let the music keep you near.
+
+620
+00:53:08,319 --> 00:53:10,401
+So yeah, that's pretty much how you use Wave.
+
+621
+00:53:10,461 --> 00:53:12,522
+It's called a Wave tool, that service.
+
+622
+00:53:13,143 --> 00:53:14,484
+So that's how you can get the stems.
+
+623
+00:53:14,864 --> 00:53:18,147
+There's also another tool called UVR5, but it gets really involved.
+
+624
+00:53:18,427 --> 00:53:29,295
+You do have to have like decent hardware, but you can also use like, instead of using like an online service where, I think all the accounts on Wave tool right now are free, but you can use UVR5 locally forever.
+
+625
+00:53:29,576 --> 00:53:33,939
+It's like an open source software project that allows you to pull stems just like this, literally.
+
+626
+00:53:35,220 --> 00:53:38,063
+And that's not just AI-generated music.
+
+627
+00:53:38,383 --> 00:53:39,805
+Any song you can put into UVR5
+
+628
+00:53:39,825 --> 00:53:41,947
+and get, like, the stings from it is actually pretty cool.
+
+629
+00:53:42,608 --> 00:53:42,788
+I know.
+
+630
+00:53:42,808 --> 00:53:42,948
+Yeah.
+
+631
+00:53:43,869 --> 00:53:47,032
+Appreciate it.
+
+632
+00:53:47,052 --> 00:53:49,975
+I know they want you guys to go over to the, what was it called again?
+
+633
+00:53:51,176 --> 00:53:52,057
+Yeah, the general session.
+
+634
+00:53:52,097 --> 00:53:54,419
+So I'm going to shut up now.
+
+635
+00:53:54,459 --> 00:53:55,901
+Yeah, I appreciate you guys.
+
+636
+00:53:55,921 --> 00:53:56,241
+Thank you.
+
+637
+00:53:56,301 --> 00:53:57,002
+Thank you for coming.
