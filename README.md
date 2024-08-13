@@ -9,7 +9,7 @@
         - [Kanye West AI Vocal Process](https://www.youtube.com/watch?v=2sMpIXQcSCA&ab_channel=RobertoNickson)
       - Text to Music
         - Meme Songs
-          - [BBL Drizzy](https://music.youtube.com/watch?v=L8Za5OpX8bM) by King Willonius (1.5M)
+          - [BBL Drizzy](https://www.youtube.com/watch?v=1uW_AUwEv-0&ab_channel=KingWillonius) by King Willonius (1.5M)
           - [Started To Sing](https://x.com/elevenlabsio/status/1788628171044053386) by ElevenLabs
         - AI Samples
           - Sound FX
