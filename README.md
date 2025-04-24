@@ -75,7 +75,7 @@
       - as Photoshop
 - Prompting
   - [Udio Tips](https://docs.google.com/document/d/1aQW2OBBnyM-MllWzmDzxdP6g9t6HJJxVNHyJDW8L8AY/edit)
-  - [Suno Tips](https://www.suno.wiki/faq/getting-started/custom-mode-how-do-i-write-a-style-prompt/)
+  - [Suno Tips](https://doc.easymusic.ai/docs/getting-started/custom-mode-how-do-i-write-a-style-prompt)
   - GPT Prompt
     - [Song Description - A brief description of the song's theme and mood]
     - "< Description >"
