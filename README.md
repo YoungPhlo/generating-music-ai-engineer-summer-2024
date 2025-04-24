@@ -106,6 +106,23 @@
     - [https://www.udio.com/songs/mqogi2xJvNywqaT46soSwU](https://www.udio.com/songs/mqogi2xJvNywqaT46soSwU)
     - "Elgareth" in the Udio discord
 - List of research sources
+  - Open Models
+    - Stable Audio Open (RC Tools)
+      - [https://github.com/RoyalCities/RC-stable-audio-tools/](https://github.com/RoyalCities/RC-stable-audio-tools/)
+    - DiffRhythm
+      - [https://aslp-lab.github.io/DiffRhythm.github.io/](https://aslp-lab.github.io/DiffRhythm.github.io/)
+      - [https://github.com/ASLP-lab/DiffRhythm](https://github.com/ASLP-lab/DiffRhythm)
+    - YuE
+      - [https://github.com/multimodal-art-projection/YuE](https://github.com/multimodal-art-projection/YuE)
+      - [https://github.com/sdbds/YuE-for-windows](https://github.com/sdbds/YuE-for-windows)
+      - [https://github.com/sgsdxzy/YuE-exllamav2](https://github.com/sgsdxzy/YuE-exllamav2)
+  - Music Generation Services
+    - Suno
+      - [https://suno.com](https://suno.com)
+    - Udio
+      - [https://udio.com](https://udio.com)
+    - Riffusion
+      - [https://www.riffusion.com](https://www.riffusion.com)
   - Podcasts
     - [Making Transformers Sing on Latent Space](https://www.latent.space/p/suno)
     - [Can AI Make Music That's Worth Listening To](https://podcasts.apple.com/ca/podcast/ai-generated-music-can-ai-make-music-thats-worth-listening/id1498674401?i=1000476109123)
