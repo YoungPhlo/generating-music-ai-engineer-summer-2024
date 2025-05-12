@@ -107,8 +107,9 @@
     - "Elgareth" in the Udio discord
 - List of research sources
   - Open Models
-    - Stable Audio Open (RC Tools)
-      - [https://github.com/RoyalCities/RC-stable-audio-tools/](https://github.com/RoyalCities/RC-stable-audio-tools/)
+    - Stable Audio Open
+      - [https://github.com/Stability-AI/stable-audio-tools](https://github.com/Stability-AI/stable-audio-tools)
+      - [https://github.com/RoyalCities/RC-stable-audio-tools/ (RC Tools)](https://github.com/RoyalCities/RC-stable-audio-tools/)
     - DiffRhythm
       - [https://aslp-lab.github.io/DiffRhythm.github.io/](https://aslp-lab.github.io/DiffRhythm.github.io/)
       - [https://github.com/ASLP-lab/DiffRhythm](https://github.com/ASLP-lab/DiffRhythm)
@@ -116,6 +117,9 @@
       - [https://github.com/multimodal-art-projection/YuE](https://github.com/multimodal-art-projection/YuE)
       - [https://github.com/sdbds/YuE-for-windows](https://github.com/sdbds/YuE-for-windows)
       - [https://github.com/sgsdxzy/YuE-exllamav2](https://github.com/sgsdxzy/YuE-exllamav2)
+    - ACE-Step
+      - [https://github.com/ace-step/ACE-Step](https://github.com/ace-step/ACE-Step)
+      - [https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B](https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B)
   - Music Generation Services
     - Suno
       - [https://suno.com](https://suno.com)
